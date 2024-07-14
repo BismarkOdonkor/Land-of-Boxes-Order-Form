@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-image: url('car.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.container {
+  max-width: 800px; /* Set the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding inside the container */
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+  border-radius: 2px; 
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: solid;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button[type="reset"] {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button[type="reset"]:hover {
+  background-color: #45a049;
+}
